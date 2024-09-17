@@ -28,14 +28,14 @@ cars.iloc[0:5,1::2]
 cars.loc[cars['Model']=='Mazda RX4']
 
 
-# In[10]:
+# In[16]:
 
 
-cars.loc[cars['Model']=='Camaro Z28',['Model','cyl']]
+cars.loc[cars['Model']=='Camaro Z28',['cyl']]
 
 
-# In[12]:
+# In[14]:
 
 
-cars.loc[cars['Model'].isin(["Mazda RX4 Wag", "Ford Pantera L", "Honda Civic"]), ['Model','cyl', 'gear']]
+cars.loc[cars['Model'].isin(["Mazda RX4 Wag", "Ford Pantera L", "Honda Civic"]), ['cyl', 'gear']]
 
